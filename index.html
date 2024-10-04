@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cute Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🍰 My Cute Recipe Book 🍰</h1>
+        <input type="text" id="search" placeholder="Search for delicious recipes...">
+    </header>
+
+    <section id="recipe-list">
+        <!-- Fetched or user-added recipes will be displayed here -->
+    </section>
+
+    <section id="add-recipe">
+        <h2>✨ Add Your Own Recipe ✨</h2>
+        <input type="text" id="recipe-name" placeholder="Recipe Name">
+        <textarea id="ingredients" placeholder="Ingredients (separate by commas)"></textarea>
+        <textarea id="instructions" placeholder="Instructions"></textarea>
+        <input type="file" id="recipe-image" accept="image/*">
+        <button id="save-recipe">🌟 Save Recipe 🌟</button>
+        <button id="review-recipes">🍽️ Review Saved Recipes 🍽️</button>
+    </section>
+
+    <section id="saved-recipe-list">
+        <!-- Saved recipes from local storage will be shown here -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
